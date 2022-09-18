@@ -31,6 +31,7 @@ body
     font-family: 'Shrikhand', cursive;
     border: none;
     background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 body .container button h2
 {
