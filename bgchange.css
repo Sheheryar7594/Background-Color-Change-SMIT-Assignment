@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Khand:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Shrikhand&family=Six+Caps&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html
+{
+    font-size: 62.5%;   
+    /*62.5% of 16px is 10px means now 1rem is 10px*/
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg,#219ebc, #023147 );
+}
+
+.btn{
+    height: 6rem;
+    width: 20rem;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Shrikhand', cursive;
+    border: none;
+    background-color: transparent;
+}
+body .container button h2
+{
+    font-size: 5rem;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 200;
+    background-image: linear-gradient( #c33764 ,  #1d2671);
+    /* applying linear gradient to text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
